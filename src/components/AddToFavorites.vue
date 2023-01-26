@@ -1,6 +1,6 @@
 <template>
 	<button @click="handleLike"
-		:class="{ btn: true, 'btn-sm': true, 'btn-primary': isFavoriteOptimistic, 'btn-outline-primary': !isFavoritedOptimistic}">
+		:class="{ btn: true, 'btn-sm': true, 'btn-primary': isFavoritedOptimistic, 'btn-outline-primary': !isFavoritedOptimistic}">
 		<i class="ion-heart" />
 		<span>&nbsp; {{ favoritesCountOptimistic }}</span>
 	</button>

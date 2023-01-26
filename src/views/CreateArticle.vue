@@ -34,7 +34,7 @@ export default {
 	methods: {
 		onSubmit(articleInput) {
 			this.$store.dispatch(actionTypes.createArticle, { articleInput }).then(article => {
-				this.$route.push({ name: 'article', params: { slug: article.slug } })
+				this.$router.push({ name: 'article', params: { slug: article.slug } })
 			})
 		}
 	}

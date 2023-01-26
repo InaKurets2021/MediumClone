@@ -29,7 +29,7 @@ const mutations = {
 };
 
 const actions = {
-  [actionTypes.craeteArticle](context, { articleInput }) {
+  [actionTypes.createArticle](context, { articleInput }) {
     return new Promise((resolve) => {
       context.commit(mutationTypes.createArticleStart);
       articleApi

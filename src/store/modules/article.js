@@ -26,7 +26,7 @@ const mutations = {
     state.isLoading = true;
     state.data = null;
   },
-  [mutationTypes.geArticleSuccess](state, payload) {
+  [mutationTypes.getArticleSuccess](state, payload) {
     state.isLoading = false;
     state.data = payload;
   },

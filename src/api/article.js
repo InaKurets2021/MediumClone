@@ -2,12 +2,12 @@ import axios from "@/api/axios";
 
 const getArticle = (slug) => {
   return axios
-    .get(`/article/${slug}`)
+    .get(`/articles/${slug}`)
     .then((response) => response.data.article);
 };
 
 const deleteArticle = (slug) => {
-  return axios.delete(`/article/${slug}`);
+  return axios.delete(`/articles/${slug}`);
 };
 
 const createArticle = (articleInput) => {
@@ -18,7 +18,7 @@ const createArticle = (articleInput) => {
 
 const updateArticle = (slug, articleInput) => {
   return axios
-    .put(`/article/${slug}`, articleInput)
+    .put(`/articles/${slug}`, articleInput)
     .then((response) => response.data.article);
 };
 
