@@ -1,24 +1,30 @@
-# vuelast
+# Учебный проект MediumClone
 
-## Project setup
-```
-npm install
-```
+### Быстрый старт:
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+- Клонируйте репозиторий: `git clone https://github.com/InaKurets2021/MediumClone.git`
+- Установите зависимости: `yarn install` или `npm install`
+- Запустите проект: `yarn serve` или `npm run serve`
 
-### Compiles and minifies for production
-```
-npm run build
-```
+### Стэк используемых технологий:
 
-### Lints and fixes files
-```
-npm run lint
-```
+- HTML
+- SCSS
+- Vue
+- Vuex
+- Vue-router
+- Js
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Реализовано в проекте:
+- Авторизация
+- Регистрация
+- Fetch данных
+- Работа c API
+- Роутинг
+- Пагинация
+- Сортировка
+- Поиск
+
+### Демо сайта:
+
+[Medium Clone](https://inakurets2021.github.io/MediumClone/)
